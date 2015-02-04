@@ -28,13 +28,7 @@
 
 		<!-- add fake friend -->
 		{{#each friends}}
-			<div class="friend">
-				<img class="img-responsive img-rounded"src={{imageURL}}>
-				<a href="#">
-					<h3 class="friendName">{{name}}</h3>
-				</a>
-				<p>{{description}}</p>
-			</div>
+			{{> friend}}
 		{{/each}}
 		
 

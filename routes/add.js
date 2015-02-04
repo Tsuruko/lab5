@@ -10,7 +10,7 @@ exports.addFriend = function(req, res) { 
     
     data["friends"].push(newfriend);
 
-    console.log(newfriend);
+    //console.log(newfriend);
 
     res.render('add');
  }
